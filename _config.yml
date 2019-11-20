@@ -1,5 +1,5 @@
 title: Stack Problems
-description: My Personal Stack
+description: My Personal Stack Problems
 author: seoulcode
 github: https://github.com/seoulcode
 about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
@@ -8,8 +8,6 @@ google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
 tagarray: []
-
-remote_theme : agusmakmun/agusmakmun
 
 collections:
   project:
