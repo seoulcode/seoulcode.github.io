@@ -9,7 +9,7 @@ categories: [linux, tool]
 
 1. download link
 `https://chrome.google.com/webstore/detail/chromium-wheel-smooth-scr/khpcanbeojalbkpgpmjpdkjnkfcgfkhb`
-1. config 
-[logo]: https://github.com/seoulcode/seoulcode.github.io/blob/master/image/2019-11-26-wheel-smooth-scroller-config.jpg "wheel smooth scroller config"
-![this is wheel smooth](https://github.com/seoulcode/seoulcode.github.io/blob/master/image/2019-11-26-wheel-smooth-scroller-config.jpg "wheel smooth scroller config")
+1. display config
+![logo](https://github.com/seoulcode/seoulcode.github.io/blob/master/image/2019-11-26-wheel-smooth-scroller-config.jpg?raw=true "wheel smooth scroller config1")
+![this is wheel smooth](https://github.com/seoulcode/seoulcode.github.io/blob/master/image/2019-11-26-wheel-smooth-scroller-config.jpg?raw=true "wheel smooth scroller config2")
 
