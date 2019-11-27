@@ -18,11 +18,6 @@ categories: [testing, googletest]
 ```bash
 $> mkdir build
 $> cd build
-$> cmake ..
-```
-	- if the following error occur, `No CMAKE_CXX_COMPILER could be found.`, install the g++ `$> sudo apt-get install g++`
-1. retry cmake build.
-```bash
 c192~/work/gtest-sample/googletest/googletest/build> cmake ..
 -- The CXX compiler identification is GNU 7.4.0
 -- The C compiler identification is GNU 7.4.0
@@ -53,6 +48,10 @@ c192~/work/gtest-sample/googletest/googletest/build> cmake ..
 -- Build files have been written to: ~/work/gtest-sample/googletest/googletest/build
 c192~/work/gtest-sample/googletest/googletest/build>
 ```
+	- if the following error occur, install the g++
+	> `No CMAKE_CXX_COMPILER could be found.`
+	`$> sudo apt-get install g++`
+	- retry cmake build.
 
 1. run make
 ```bash
