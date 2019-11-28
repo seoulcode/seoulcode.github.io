@@ -67,9 +67,8 @@ Scanning dependencies of target gtest_main
 c192~/work/gtest-sample/googletest/googletest/build>
 ```
 
-1. 테스트 디렉토리로 돌아와서 `make test`를 실행한다.<br>
-<br>
-```bash  
+1. 테스트 디렉토리로 돌아와서 `make test`를 실행한다.<br>  
+```  
 c192~/work/testing/gtest-sum> make test
 g++ -o sum_test sum.cc sum_test.cc -I/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/include -L/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/build/lib -pthread -lgtest
 ./sum_test
@@ -94,7 +93,7 @@ Expected equality of these values:
  1 FAILED TEST
 Makefile:20: recipe for target 'test' failed
 make: *** [test] Error 1
-c192~/work/testing/gtest-sum>
+c192~/work/testing/gtest-sum>   
 ```  
 <br>
 * 테스트가 실패하도록 되어 있기 때문에 `FAILED TEST`가 출력된다..  
