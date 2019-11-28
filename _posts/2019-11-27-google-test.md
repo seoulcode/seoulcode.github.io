@@ -14,7 +14,7 @@ categories: [testing, googletest]
 
 1. googletest를 빌드
 `$> cd googletest/googletest/`
-1. cmake를 빌드할 디렉토리 생성, cmake 실행.
+1. cmake를 빌드할 디렉토리 생성, cmake 실행.  
 ```bash
 $> mkdir build
 $> cd build
@@ -66,7 +66,8 @@ Scanning dependencies of target gtest_main
 [100%] Built target gtest_main
 c192~/work/gtest-sample/googletest/googletest/build>
 ```
-1. 다시 테스트할 디렉토리에 와서 `make test`를 실행한다.
+
+1. 테스트 디렉토리로 돌아와서 `make test`를 실행한다.<br>
 ```bash
 c192~/work/testing/gtest-sum> make test
 g++ -o sum_test sum.cc sum_test.cc -I/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/include -L/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/build/lib -pthread -lgtest
