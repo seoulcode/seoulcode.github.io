@@ -67,35 +67,34 @@ Scanning dependencies of target gtest_main
 c192~/work/gtest-sample/googletest/googletest/build>
 ```
 
-1. 테스트 디렉토리로 돌아와서 `make test`를 실행한다.<br>  
+1. back to the previous directory, run `$> make test`  
 ```  
-c192~/work/testing/gtest-sum> make test
-g++ -o sum_test sum.cc sum_test.cc -I/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/include -L/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/build/lib -pthread -lgtest
-./sum_test
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from test_case_name
-[ RUN      ] test_case_name.test_name
-sum_test.cc:8: Failure
-Expected equality of these values:
-  2
-  sum(1,1)
-    Which is: 0
-[  FAILED  ] test_case_name.test_name (0 ms)
-[----------] 1 test from test_case_name (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (1 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] test_case_name.test_name
-
- 1 FAILED TEST
-Makefile:20: recipe for target 'test' failed
-make: *** [test] Error 1
-c192~/work/testing/gtest-sum>   
+c192~/work/testing/gtest-sum> make test  
+g++ -o sum_test sum.cc sum_test.cc -I/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/include -L/home/seoulcode/work/testing/gtest-sum/../googletest/googletest/build/lib -pthread -lgtest  
+./sum_test  
+[==========] Running 1 test from 1 test suite.  
+[----------] Global test environment set-up.  
+[----------] 1 test from test_case_name  
+[ RUN      ] test_case_name.test_name  
+sum_test.cc:8: Failure  
+Expected equality of these values:  
+  2  
+  sum(1,1)  
+    Which is: 0  
+[  FAILED  ] test_case_name.test_name (0 ms)  
+[----------] 1 test from test_case_name (0 ms total)  
+  
+[----------] Global test environment tear-down  
+[==========] 1 test from 1 test suite ran. (1 ms total)  
+[  PASSED  ] 0 tests.  
+[  FAILED  ] 1 test, listed below:  
+[  FAILED  ] test_case_name.test_name  
+  
+ 1 FAILED TEST  
+Makefile:20: recipe for target 'test' failed  
+make: *** [test] Error 1  
+c192~/work/testing/gtest-sum>     
 ```  
-<br>
-* 테스트가 실패하도록 되어 있기 때문에 `FAILED TEST`가 출력된다..  
+* 테스트가 실패하도록 되어 있기 때문에 `FAILED TEST`가 출력된다.  
 * source : <https://github.com/seoulcode/testing/tree/master/gtest-sum>
 
